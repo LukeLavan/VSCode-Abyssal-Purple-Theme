@@ -1,0 +1,32 @@
+{
+  "engines": {
+    "vscode": "^1.22.0"
+  },
+  "name": "vscode-abyssal-purple-theme",
+  "publisher": "LukeLavan",
+  "version": "1.0.2",
+  "displayName": "Abyssal Purple Theme",
+  "description": "VSCode theme with pitch black background and abyssal purple + high contrast accents",
+  "license": "MPL-2.0",
+  "private": false,
+  "repository": {
+    "url": "https://github.com/LukeLavan/VSCode-Abyssal-Purple-Theme",
+    "type": "git"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Abyssal Purple",
+        "id": "abyssal-purple",
+        "uiTheme": "vs-dark",
+        "path": "./themes/abyssal-purple-color-theme.json"
+      }
+    ]
+},
+  "galleryBanner": {
+    "color": "#32004f",
+    "theme": "dark"
+  },
+  "files": ["package.json", "abyssal-purple-color-theme.json", "LICENSE"]
+}
