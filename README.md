@@ -1,1 +1,1 @@
-![Preview](preview.png)
+![Preview](https://github.com/LukeLavan/VSCode-Abyssal-Purple-Theme/blob/e7d8d23c5b773a3a288f9ac44af6a295d6d54165/preview.png)
