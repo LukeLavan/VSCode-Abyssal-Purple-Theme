@@ -2097,5 +2097,68 @@
     "editorGutter.commentRangeForeground": "#ffffff",
     "debugExceptionWidget.background": "#000000",
     "debugExceptionWidget.border": "#32004f"
-  }
+  },
+  // v1.1 - colors for webdev
+  "textMateRules": [
+    {
+      "scope": "meta.return.type.ts, support.type.primitive.ts",
+      "settings": {
+        "foreground": "#00FFFF"
+      }
+    },
+    {
+      "scope": "variable.language.this",
+      "settings": {
+        "foreground": "#D000FF"
+      }
+    },
+    {
+      "scope": "control.block.ng",
+      "settings": {
+        "foreground": "#BA55D3" // MediumOrchid
+      }
+    },
+    {
+      "scope": "variable.other.readwrite, text.html.derivative, support.constant.property-value.css, constant.numeric.css, support.constant.color.w3c-standard-color-name.css, support.constant.color.w3c-extended-color-name.css",
+      "settings": {
+        "foreground": "#FFFFFF" // White
+      }
+    },
+    {
+      "scope": "punctuation.definition.heading.markdown, entity.name.section.markdown, entity.name.tag.html, entity.name.tag.css, punctuation.definition.tag.begin.html, punctuation.definition.tag.end.html, entity.name.type, entity.name.type.class, punctuation.definition.entity.css, entity.other.attribute-name.class.css, entity.name.tag.custom.scss, variable.other.readwrite.alias.ts",
+      "settings": {
+        "foreground": "#9370DB" // MediumPurple
+      }
+    },
+    {
+      "scope": "entity.name.function.member, entity.name.function, support.type.property-name",
+      "settings": {
+        "foreground": "#449ce4" // DodgerBlue
+      }
+    },
+    {
+      "scope": "source.ignore, meta.paragraph.markdown, entity.other.attribute-name.html, entity.other.attribute-name.attribute.scss, variable.other.constant.ts, variable.other.property, variable.other.object.property.ts, keyword.other.unit, support.type.property-name.json, variable.scss, support.constant.font-name.css, meta.property-value.scss, meta.at-rule.include.scss",
+      "settings": {
+        "foreground": "#ffb5e9", // PastelPink
+      }
+    },
+    {
+      "scope": "support.type.primitive.ts, constant.language.boolean, variable.other.constant.object.html, variable.other.object.html, variable.other.readwrite, meta.ng-binding.event.html",
+      "settings": {
+        "foreground": "#FFD700" // Gold
+      }
+    },
+    {
+      "scope": "storage.type.ts",
+      "settings": {
+        "foreground": "#ff00b3" 
+      }
+    },
+    {
+      "scope": "meta.attribute-selector.scss",
+      "settings": {
+        "foreground": "#00FF00", // string green
+      }
+    }
+  ]
 }

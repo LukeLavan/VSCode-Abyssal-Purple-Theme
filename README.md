@@ -1,1 +1,17 @@
-![Preview](https://github.com/LukeLavan/VSCode-Abyssal-Purple-Theme/blob/e7d8d23c5b773a3a288f9ac44af6a295d6d54165/preview.png)
+# Previews
+
+## typescript
+
+![Preview TS](./preview_ts.png)
+
+## html
+
+![Preview HTML](./preview_html.png)
+
+## scss
+
+![Preview SCSS](./preview_scss.png)
+
+## json
+
+![Preview JSON](./preview_json.png)
